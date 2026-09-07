@@ -249,9 +249,7 @@ async def iniciar_registro(interaction: discord.Interaction):
         description=(
             "Para acceder al servidor debes registrarte con tu nombre completo "
             "y un correo institucional `@eafit.edu.co`.\n\n"
-            "Pulsa **Registrarme** para comenzar.\n\n"
-            "**Nota:** el registro valida el formato del correo institucional, "
-            "pero actualmente no envía un código ni verifica que tengas acceso real a esa cuenta."
+            "Pulsa **Registrarme** para comenzar."
         ),
         color=discord.Color.blue(),
     )
